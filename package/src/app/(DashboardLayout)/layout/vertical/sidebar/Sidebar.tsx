@@ -28,7 +28,7 @@ const SidebarLayout = () => {
                 <Sidebar.ItemGroup className="sidebar-nav">
                   {SidebarContent.map((item, index) => (
                     <React.Fragment key={index}>
-                      <h5 className="text-link font-semibold text-sm caption">
+                      <h5 className="text-link text-xs caption">
                         <span className="hide-menu">{item.heading}</span>
                       </h5>
                       <Icon
