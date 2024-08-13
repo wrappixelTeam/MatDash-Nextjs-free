@@ -11,7 +11,7 @@ const NewCustomers = () => {
           <div className="bg-lightsecondary text-secondary p-3 rounded-md">
             <Icon icon="solar:football-outline" height={24} />
           </div>
-          <p className="text-base text-dark">New Customers</p>
+          <p className="text-base text-dark font-semibold">New Customers</p>
         </div>
         <div className="flex items-center justify-between mb-3">
           <p className="text-sm text-dark">New goals</p>

@@ -23,7 +23,7 @@ import { uniqueId } from "lodash";
 
 const SidebarContent: MenuItem[] = [
   {
-    heading: "Home",
+    heading: "HOME",
     children: [
       {
         name: "Dashboard",
@@ -34,7 +34,7 @@ const SidebarContent: MenuItem[] = [
     ],
   },
   {
-    heading: "Utilities",
+    heading: "UTILITIES",
     children: [
       {
         name: "Typography",
@@ -63,7 +63,7 @@ const SidebarContent: MenuItem[] = [
     ],
   },
   {
-    heading: "Auth",
+    heading: "AUTH",
     children: [
       {
         name: "Login",
@@ -80,7 +80,7 @@ const SidebarContent: MenuItem[] = [
     ],
   },
   {
-    heading: "Extra",
+    heading: "EXTRA",
     children: [
       {
         name: "Icons",

@@ -1,12 +1,12 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import 'simplebar-react/dist/simplebar.min.css';
 import "./css/globals.css";
 import { Flowbite, ThemeModeScript } from "flowbite-react";
 import customTheme from "@/utils/theme/custom-theme";
 
-const inter = Inter({ subsets: ["latin"] });
+const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "MatDash-Nextjs-Free",
@@ -23,7 +23,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <ThemeModeScript />
       </head>
-      <body className={`${inter.className}`}>
+      <body className={`${manrope.className}`}>
         <Flowbite theme={{ theme: customTheme }}>{children}</Flowbite>
       </body>
     </html>

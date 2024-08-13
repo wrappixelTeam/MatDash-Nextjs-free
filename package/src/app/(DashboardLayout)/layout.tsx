@@ -16,7 +16,7 @@ export default function Layout({
         <div className="body-wrapper w-full bg-white dark:bg-dark">
           <Header />
           {/* Body Content  */}
-          <div className="bg-lightgray mx-3 rounded-page">
+          <div className="bg-lightgray mr-3 rounded-page">
             <div
               className={`container mx-auto  py-30`}
             >

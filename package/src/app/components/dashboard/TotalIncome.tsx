@@ -60,11 +60,11 @@ const TotalIncome = () => {
           <div className="bg-lighterror text-error p-3 rounded-md">
             <Icon icon="solar:box-linear" height={24} />
           </div>
-          <p className="text-base text-dark">Total Income</p>
+          <p className="text-base font-semibold text-dark">Total Income</p>
         </div>
         <div className="flex">
           <div className="flex-1">
-            <p className="text-xl text-dark mb-2">$680</p>
+            <p className="text-xl text-dark font-medium mb-2">$680</p>
             <p className="text-success text-xs">+18%</p>
           </div>
           <div className="rounded-bars flex-1 md:ps-7">
