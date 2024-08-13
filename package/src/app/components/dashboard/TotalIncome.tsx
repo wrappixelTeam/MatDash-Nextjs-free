@@ -63,16 +63,16 @@ const TotalIncome = () => {
           <p className="text-base text-dark">Total Income</p>
         </div>
         <div className="flex">
-          <div className="">
+          <div className="flex-1">
             <p className="text-xl text-dark mb-2">$680</p>
             <p className="text-success text-xs">+18%</p>
           </div>
-          <div className="rounded-bars md:ps-7">
+          <div className="rounded-bars flex-1 md:ps-7">
             <Chart
               options={ChartData}
               series={ChartData.series}
               type="area"
-              height="70px"
+              height="60px"
               width="100%"
             />
           </div>

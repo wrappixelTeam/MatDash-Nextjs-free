@@ -23,7 +23,7 @@ import { uniqueId } from "lodash";
 
 const SidebarContent: MenuItem[] = [
   {
-    heading: "Dashboards",
+    heading: "Home",
     children: [
       {
         name: "Dashboard",

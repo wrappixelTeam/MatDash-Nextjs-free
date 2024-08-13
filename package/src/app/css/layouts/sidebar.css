@@ -1,5 +1,4 @@
 .menu-sidebar {
-    box-shadow: 7px 7px 10px rgba(0, 0, 0, .03);
     flex-shrink: 0;
     z-index: 99;
     transition: .2s ease-in;
@@ -7,7 +6,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    width: 260px;
+    width: 300px;
 }
 
 .logo img {

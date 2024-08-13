@@ -49,8 +49,6 @@ const customTheme = {
     },
   },
 
- 
-
   table: {
     root: {
       base: "w-full text-left text-sm text-gray-500 dark:text-gray-400",
@@ -109,7 +107,6 @@ const customTheme = {
     },
   },
 
-
   checkbox: {
     root: {
       base: "rounded border-2 cursor-pointer ",
@@ -141,6 +138,7 @@ const customTheme = {
       xl: "h-6",
     },
   },
+
   sidebar: {
     root: {
       inner: "bg-white dark:bg-darkgray rounded-none",
@@ -161,7 +159,7 @@ const customTheme = {
         base: "h-6 w-6 text-link text-base",
       },
       label: {
-        base: "flex justify-start flex-1 max-w-36 overflow-hidden truncate" ,
+        base: "flex justify-start flex-1 max-w-36 overflow-hidden truncate",
       },
     },
     itemGroup: {
@@ -169,7 +167,23 @@ const customTheme = {
     },
   },
 
-  
+  Progress: {
+    bar: "space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100",
+    color: {
+      "dark": "bg-gray-600 dark:bg-gray-300",
+      "blue": "bg-blue-600",
+      "red": "bg-red-600 dark:bg-red-500",
+      "green": "bg-green-600 dark:bg-green-500",
+      "yellow": "bg-yellow-400",
+      "indigo": "bg-indigo-600 dark:bg-indigo-500",
+      "purple": "bg-purple-600 dark:bg-purple-500",
+      "cyan": "bg-cyan-600",
+      "gray": "bg-gray-500",
+      "lime": "bg-lime-600",
+      "pink": "bg-pink-500",
+      "teal": "bg-teal-600",
+    },
+  },
 };
 
 export default customTheme;

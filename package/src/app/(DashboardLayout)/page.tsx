@@ -2,8 +2,8 @@ import React from "react";
 import SalesProfit from "../components/dashboard/RevenueForecast";
 import NewCustomers from "../components/dashboard/NewCustomers";
 import TotalIncome from "../components/dashboard/TotalIncome";
-import PopularProducts from "../components/dashboard/PopularProducts";
-import EarningReports from "../components/dashboard/EarningReports";
+import ProductRevenue from "../components/dashboard/ProductRevenue";
+import DailyActivity from "../components/dashboard/DailyActivity";
 import BlogCards from "../components/dashboard/BlogCards";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ const page = () => {
           <SalesProfit />
         </div>
         <div className="lg:col-span-4 col-span-12">
-          <div className="grid grid-cols-12 ">
+          <div className="grid grid-cols-12 h-full items-stretch">
             <div className="col-span-12 mb-30">
               <NewCustomers />
             </div>
@@ -25,10 +25,10 @@ const page = () => {
           </div>
         </div>
         <div className="lg:col-span-8 col-span-12">
-          <PopularProducts />
+          <ProductRevenue />
         </div>
         <div className="lg:col-span-4 col-span-12">
-          <EarningReports />
+          <DailyActivity />
         </div>
         <div className="col-span-12">
           <BlogCards />

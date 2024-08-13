@@ -9,7 +9,7 @@ import customTheme from "@/utils/theme/custom-theme";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MaterialM-Nextjs-Free",
+  title: "MatDash-Nextjs-Free",
 };
 
 export default function RootLayout({
