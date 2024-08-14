@@ -2,9 +2,9 @@ import React from "react";
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import 'simplebar-react/dist/simplebar.min.css';
-import "./css/globals.css";
 import { Flowbite, ThemeModeScript } from "flowbite-react";
 import customTheme from "@/utils/theme/custom-theme";
+import "./css/globals.css";
 
 const manrope = Manrope({ subsets: ["latin"] });
 

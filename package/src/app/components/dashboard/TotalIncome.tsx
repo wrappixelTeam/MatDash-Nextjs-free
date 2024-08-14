@@ -60,7 +60,7 @@ const TotalIncome = () => {
           <div className="bg-lighterror text-error p-3 rounded-md">
             <Icon icon="solar:box-linear" height={24} />
           </div>
-          <p className="text-base font-semibold text-dark">Total Income</p>
+          <p className="text-lg font-semibold text-dark">Total Income</p>
         </div>
         <div className="flex">
           <div className="flex-1">

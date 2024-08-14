@@ -88,7 +88,7 @@ const ProductRevenue = () => {
                       </div>
                     </Table.Cell>
                     <Table.Cell>
-                      <Badge color={`${item.statusbg}`} className={`text-${item.statuscolor}`}>
+                      <Badge color={`${item.statusbg}`} className={`text-${item.statuscolor} `}>
                         {item.statustext}
                       </Badge>
                     </Table.Cell>

@@ -6,10 +6,10 @@
     --color-lightprimary: #4400ff20;
     --color-lightsecondary: #d0fbf9;
     --color-info: #46caeb;
-    --color-success: #00ceb6;
+    --color-success: #36C76C;
     --color-warning: #FFB900;
     --color-error: #FF6692;
-    --color-lightsuccess: #00ceb625;
+    --color-lightsuccess: #d7f4e2;
     --color-lighterror: #FF669230;
     --color-lightinfo: #46caeb25;
     --color-lightwarning: #FFB90025;
@@ -20,5 +20,5 @@
     --color-link: #2a3547;
     --color-muted: #EFF4FA;
     --color-darklink: #7b8893;
-    --color-lightgray: #F8FAFD;
+    --color-lightgray: #f4f7fb;
 }

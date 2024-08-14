@@ -71,7 +71,6 @@ const config: Config = {
     },
   },
   plugins: [
-    //Add Flowbite Plugin
 
     require("flowbite/plugin"),
   ],

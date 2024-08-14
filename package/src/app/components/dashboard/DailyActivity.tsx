@@ -27,7 +27,7 @@ const DailyActivity = () => {
       Time: "09:46",
       action: "New sale recorded",
       id: "#ML-3467",
-      color: "primary",
+      color: "secondary",
       line: "h-full w-px bg-border",
     },
     {
@@ -56,7 +56,7 @@ const DailyActivity = () => {
                     <p>{item.Time}</p>
                   </div>
                   <div className="flex flex-col items-center">
-                    <div className={`rounded-full bg-${item.color} p-2 w-fit`}></div>
+                    <div className={`rounded-full bg-${item.color} p-1.5 w-fit`}></div>
                     <div className={`${item.line}`}></div>
                   </div>
                   <div className="">

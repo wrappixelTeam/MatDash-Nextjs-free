@@ -98,7 +98,7 @@ const customTheme = {
       },
     },
     icon: {
-      off: "rounded-full px-2.5 py-1",
+      off: "rounded-sm px-2.5 py-1",
       on: "rounded-full py-[5px] px-[10px]",
       size: {
         xs: "h-3 w-3",
@@ -166,24 +166,6 @@ const customTheme = {
       base: "mt-4 space-y-2 border-t border-ld pt-4 first:mt-0 first:border-t-0 first:pt-0 sidebar-nav ",
     },
   },
-
-  // Progress: {
-  //   bar: "space-x-2 rounded-full text-center font-medium leading-none text-cyan-300 dark:text-cyan-100",
-  //   color: {
-  //     "dark": "bg-gray-600 dark:bg-gray-300",
-  //     "blue": "bg-blue-600",
-  //     "red": "bg-red-600 dark:bg-red-500",
-  //     "green": "bg-green-600 dark:bg-green-500",
-  //     "yellow": "bg-yellow-400",
-  //     "indigo": "bg-indigo-600 dark:bg-indigo-500",
-  //     "purple": "bg-purple-600 dark:bg-purple-500",
-  //     "cyan": "bg-cyan-600",
-  //     "gray": "bg-gray-500",
-  //     "lime": "bg-lime-600",
-  //     "pink": "bg-pink-500",
-  //     "teal": "bg-teal-600",
-  //   },
-  // },
 };
 
 export default customTheme;
