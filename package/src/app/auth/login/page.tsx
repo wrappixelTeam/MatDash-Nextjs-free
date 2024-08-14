@@ -12,7 +12,7 @@ const BoxedLogin = () => {
     <>
       <div className="relative overflow-hidden h-screen bg-muted dark:bg-dark">
         <div className="flex h-full justify-center items-center px-4">
-          <div className="rounded-lg dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-6 relative w-full break-words md:w-[450px] border-none ">
+          <div className="rounded-xl dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-6 relative w-full break-words md:w-[450px] border-none ">
             <div className="flex h-full flex-col justify-center gap-2 p-0 w-full">
               <div className="mx-auto">
                 <FullLogo />

@@ -19,6 +19,7 @@ const ProductRevenue = () => {
       seller: "Jason Roy",
       process: "73.2%",
       statuscolor: "success",
+      statusbg:"lightsuccess",
       statustext: "Low",
     },
     {
@@ -27,6 +28,7 @@ const ProductRevenue = () => {
       seller: "Mathew Flintoff",
       process: "73.2%",
       statuscolor: "warning",
+      statusbg:"lightwarning",
       statustext: "Medium",
     },
     {
@@ -35,6 +37,7 @@ const ProductRevenue = () => {
       seller: "Anil Kumar",
       process: "73.2%",
       statuscolor: "secondary",
+      statusbg:"lightsecondary",
       statustext: "Very High",
     },
     {
@@ -43,29 +46,14 @@ const ProductRevenue = () => {
       seller: "George Cruize",
       process: "73.2%",
       statuscolor: "error",
+      statusbg:"lighterror",
       statustext: "High",
-    },
-  ];
-
-  /*Table Action*/
-  const tableActionData = [
-    {
-      icon: "solar:add-circle-outline",
-      listtitle: "Add",
-    },
-    {
-      icon: "solar:pen-new-square-broken",
-      listtitle: "Edit",
-    },
-    {
-      icon: "solar:trash-bin-minimalistic-outline",
-      listtitle: "Delete",
     },
   ];
 
   return (
     <>
-      <div className="rounded-lg dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray pt-6 px-0 relative w-full break-words">
+      <div className="rounded-xl dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray pt-6 px-0 relative w-full break-words">
         <div className="px-6">
           <h5 className="card-title mb-6">Revenue by Product</h5>
         </div>
@@ -100,7 +88,7 @@ const ProductRevenue = () => {
                       </div>
                     </Table.Cell>
                     <Table.Cell>
-                      <Badge color={`light${item.statuscolor}`} className={`text-${item.statuscolor}`}>
+                      <Badge color={`${item.statusbg}`} className={`text-${item.statuscolor}`}>
                         {item.statustext}
                       </Badge>
                     </Table.Cell>

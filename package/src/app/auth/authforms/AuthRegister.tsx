@@ -14,7 +14,7 @@ const AuthRegister = () => {
             id="name"
             type="text"
             sizing="md"
-            className="form-control"
+            className="form-control form-rounded-xl"
           />
         </div>
         <div className="mb-4">
@@ -25,7 +25,7 @@ const AuthRegister = () => {
             id="emadd"
             type="text"
             sizing="md"
-            className="form-control"
+            className="form-control form-rounded-xl"
           />
         </div>
         <div className="mb-6">
@@ -36,7 +36,7 @@ const AuthRegister = () => {
             id="userpwd"
             type="password"
             sizing="md"
-            className="form-control"
+            className="form-control form-rounded-xl"
           />
         </div> 
         <Button color={'primary'} className="w-full">Sign Up</Button> 

@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className="rounded-lg dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-6 relative w-full break-words">
+      <div className="rounded-xl dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-6 relative w-full break-words">
         <h5 className="card-title">Form</h5>
         <div className="mt-6">
           <div className="grid grid-cols-12 gap-30">
@@ -19,7 +19,7 @@ const page = () => {
                     type="text"
                     placeholder="Your Name"
                     required
-                    className="form-control"
+                    className="form-control form-rounded-xl"
                   />
                 </div>
                 <div>
@@ -31,7 +31,7 @@ const page = () => {
                     type="email"
                     placeholder="name@materialm.com"
                     required
-                    className="form-control"
+                    className="form-control form-rounded-xl"
                   />
                 </div>
                 <div>
@@ -42,7 +42,7 @@ const page = () => {
                     id="password1"
                     type="password"
                     required
-                    className="form-control"
+                    className="form-control form-rounded-xl"
                   />
                 </div>
               

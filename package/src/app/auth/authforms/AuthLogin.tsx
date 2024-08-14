@@ -14,7 +14,7 @@ const AuthLogin = () => {
             id="username"
             type="text"
             sizing="md"
-            className="form-control"
+            className="form-control form-rounded-xl"
           />
         </div>
         <div className="mb-4">
@@ -25,7 +25,7 @@ const AuthLogin = () => {
             id="userpwd"
             type="password"
             sizing="md"
-            className="form-control"
+            className="form-control form-rounded-xl"
           />
         </div>
         <div className="flex justify-between my-5">

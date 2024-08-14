@@ -47,6 +47,10 @@
     @apply border-border;
   }
 
+  .form-rounded-xl input {
+    @apply rounded-xl;
+  }
+
   .form-control input {
     @apply border border-border bg-transparent w-full text-sm;
   }
@@ -101,7 +105,7 @@
   }
 
   .select-rounded select {
-    @apply border-ld bg-transparent w-full text-sm rounded-full focus:border-primary focus:ring-0;
+    @apply border-ld bg-transparent w-full text-sm rounded-xl focus:border-primary focus:ring-0;
   }
 
   .checkbox {

@@ -17,7 +17,7 @@ const NewCustomers = () => {
           <p className="text-sm text-dark">New goals</p>
           <p className="text-sm text-dark">83%</p>
         </div>
-        <Progress progress={83} color="secondary" />
+        <Progress progress={83} color="secondary"/>
       </div>
     </>
   );
