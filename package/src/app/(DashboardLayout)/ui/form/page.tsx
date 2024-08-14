@@ -29,7 +29,7 @@ const page = () => {
                   <TextInput
                     id="email1"
                     type="email"
-                    placeholder="name@materialm.com"
+                    placeholder="name@matdash.com"
                     required
                     className="form-control form-rounded-xl"
                   />

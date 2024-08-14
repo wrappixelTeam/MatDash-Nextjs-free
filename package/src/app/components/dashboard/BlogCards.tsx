@@ -62,7 +62,7 @@ const BlogCards = () => {
             <Link href={item.url} className="group">
             <div className="rounded-xl dark:shadow-dark-md shadow-md bg-white dark:bg-darkgray p-0 relative w-full break-words overflow-hidden">
                 <div className="relative">
-                  <Image src={item.coveravatar} alt="materialm" />
+                  <Image src={item.coveravatar} alt="matdash" />
                   <Badge
                     color={"muted"}
                     className="absolute bottom-5 end-5 font-semibold rounded-sm"

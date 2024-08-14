@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Badge, Button, Navbar } from "flowbite-react";
 import { Icon } from "@iconify/react";
 import Profile from "./Profile";
+import Notification from "./notification";
 import FullLogo from "../../shared/logo/FullLogo";
 import { Drawer } from "flowbite-react";
 import MobileSidebar from "../sidebar/MobileSidebar";
@@ -52,14 +53,11 @@ const Header = () => {
               >
                 <Icon icon="solar:hamburger-menu-line-duotone" height={21} />
               </span>
-              <span className="h-10 w-10 hover:text-primary hover:bg-lightprimary rounded-full flex justify-center items-center cursor-pointer relative">
-                <Icon icon="solar:bell-linear" height={20} />
-                <Badge className="h-2 w-2 rounded-full absolute end-2 top-1 bg-primary p-0"></Badge>
-              </span>
+              <Notification />
             </div>
 
             <div className="flex gap-4 items-center">
-              <Button as={Link} href="https://www.wrappixel.com/templates/materialm-next-js-tailwind-dashboard-template/?ref=33" target="_blank" size={'sm'} color={"primary"} className="rounded-md py-1 px-3">
+              <Button as={Link} href="#" size={'sm'} color={"primary"} className="rounded-md py-1 px-3">
                 Download Free
               </Button>
               <Profile />
