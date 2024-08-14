@@ -18,8 +18,8 @@ const ProductRevenue = () => {
       name: "Minecraf App",
       seller: "Jason Roy",
       process: "73.2%",
-      statuscolor: "success",
-      statusbg:"lightsuccess",
+      statuscolor: "text-success",
+      statusbg: "bg-lightsuccess",
       statustext: "Low",
     },
     {
@@ -27,8 +27,8 @@ const ProductRevenue = () => {
       name: "Web App Project",
       seller: "Mathew Flintoff",
       process: "73.2%",
-      statuscolor: "warning",
-      statusbg:"lightwarning",
+      statuscolor: "text-warning",
+      statusbg: "bg-lightwarning",
       statustext: "Medium",
     },
     {
@@ -36,8 +36,8 @@ const ProductRevenue = () => {
       name: "Modernize Dashboard",
       seller: "Anil Kumar",
       process: "73.2%",
-      statuscolor: "secondary",
-      statusbg:"lightsecondary",
+      statuscolor: "text-secondary",
+      statusbg: "bg-lightsecondary",
       statustext: "Very High",
     },
     {
@@ -45,8 +45,8 @@ const ProductRevenue = () => {
       name: "Dashboard Co",
       seller: "George Cruize",
       process: "73.2%",
-      statuscolor: "error",
-      statusbg:"lighterror",
+      statuscolor: "text-error",
+      statusbg: "bg-lighterror",
       statustext: "High",
     },
   ];
@@ -88,7 +88,7 @@ const ProductRevenue = () => {
                       </div>
                     </Table.Cell>
                     <Table.Cell>
-                      <Badge color={`${item.statusbg}`} className={`text-${item.statuscolor} `}>
+                      <Badge className={`${item.statusbg} ${item.statuscolor} `}>
                         {item.statustext}
                       </Badge>
                     </Table.Cell>

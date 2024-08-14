@@ -7,39 +7,39 @@ const DailyActivity = () => {
     {
       Time: "09:46",
       action: "Payment received from John Doe of $385.90",
-      color: "primary",
+      color: "bg-primary",
       line: "h-full w-px bg-border",
     },
     {
       Time: "09:46",
       action: "New sale recorded",
       id: "#ML-3467",
-      color: "warning",
+      color: "bg-warning",
       line: "h-full w-px bg-border",
     },
     {
       Time: "09:46",
       action: "Payment was made of $64.95 to Michael",
-      color: "warning",
+      color: "bg-warning",
       line: "h-full w-px bg-border",
     },
     {
       Time: "09:46",
       action: "New sale recorded",
       id: "#ML-3467",
-      color: "secondary",
+      color: "bg-secondary",
       line: "h-full w-px bg-border",
     },
     {
       Time: "09:46",
       action: "Project meeting",
-      color: "error",
+      color: "bg-error",
       line: "h-full w-px bg-border",
     },
     {
       Time: "09:46",
       action: "Payment received from John Doe of $385.90",
-      color: "primary"
+      color: "bg-primary"
     },
   ];
   return (
@@ -56,7 +56,7 @@ const DailyActivity = () => {
                     <p>{item.Time}</p>
                   </div>
                   <div className="flex flex-col items-center">
-                    <div className={`rounded-full bg-${item.color} p-1.5 w-fit`}></div>
+                    <div className={`rounded-full ${item.color} p-1.5 w-fit`}></div>
                     <div className={`${item.line}`}></div>
                   </div>
                   <div className="">
