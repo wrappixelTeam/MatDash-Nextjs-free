@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 const Notification = () => {
     return (
         <div className="relative group/menu">
-            <Dropdown label="" className="rounded-sm w-44" dismissOnClick={false} renderTrigger={() => (
+            <Dropdown label="" className="rounded-sm w-44 notification" dismissOnClick={false} renderTrigger={() => (
                 <span
                     className="h-10 w-10 hover:text-primary hover:bg-lightprimary rounded-full flex justify-center items-center cursor-pointer relative"
                     aria-label="Notifications"
@@ -17,63 +17,63 @@ const Notification = () => {
                 </span>
             )}
             >
-                <div className="absolute left-[60px] top-full mt-2 w-80 bg-white border border-gray-200 rounded-md shadow-lg">
-                    <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
-                        <div className="flex items-center gap-5">
-                            <div>
-                                <Image
-                                    src="/images/profile/user-1.jpg"
-                                    alt="user"
-                                    width={35}
-                                    height={35}
-                                    className="rounded-full"
-                                />
-                            </div>
-                            <p className="text-black text-sm font-semibold">Received Order from John Doe of $385.90</p>
+                <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
+                    <div className="flex items-center gap-5">
+                        <div>
+                            <Image
+                                src="/images/profile/user-1.jpg"
+                                alt="user"
+                                width={35}
+                                height={35}
+                                className="rounded-full"
+                            />
                         </div>
-                    </Dropdown.Item>
-                    <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
-                        <div className="flex items-center gap-5">
-                            <div>
-                                <Image
-                                    src="/images/profile/user-2.jpg"
-                                    alt="user"
-                                    width={35}
-                                    height={35}
-                                    className="rounded-full"
-                                />
-                            </div>
-                            <p className="text-black text-sm font-semibold">Received Order from Jessica Williams of $249.99</p>
+                        <p className="text-black text-sm font-semibold">Received Order from John Doe of $385.90</p>
+                    </div>
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
+                    <div className="flex items-center gap-5">
+                        <div>
+                            <Image
+                                src="/images/profile/user-2.jpg"
+                                alt="user"
+                                width={35}
+                                height={35}
+                                className="rounded-full"
+                            />
                         </div>
-                    </Dropdown.Item>
-                    <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
-                        <div className="flex items-center gap-5">
-                            <div>
-                                <Image
-                                    src="/images/profile/user-3.jpg"
-                                    alt="user"
-                                    width={35}
-                                    height={35}
-                                    className="rounded-full"
-                                />
-                            </div>
-                            <p className="text-black text-sm font-semibold">Received Order from John Edison of $499.99</p>
+                        <p className="text-black text-sm font-semibold">Received Order from Jessica Williams of $249.99</p>
+                    </div>
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
+                    <div className="flex items-center gap-5">
+                        <div>
+                            <Image
+                                src="/images/profile/user-3.jpg"
+                                alt="user"
+                                width={35}
+                                height={35}
+                                className="rounded-full"
+                            />
                         </div>
-                    </Dropdown.Item>
-                    <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
-                        <div className="flex items-center gap-5">
-                            <div>
-                                <Image
-                                    src="/images/profile/user-4.jpg"
-                                    alt="user"
-                                    width={35}
-                                    height={35}
-                                    className="rounded-full"
-                                />
-                            </div>
-                            <p className="text-black text-sm font-semibold">Received message from Nitin Chohan</p>
+                        <p className="text-black text-sm font-semibold">Received Order from John Edison of $499.99</p>
+                    </div>
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} href="#" className="px-3 py-3 flex items-center bg-hover group/link w-full gap-3 text-dark hover:bg-gray-100">
+                    <div className="flex items-center gap-5">
+                        <div>
+                            <Image
+                                src="/images/profile/user-4.jpg"
+                                alt="user"
+                                width={35}
+                                height={35}
+                                className="rounded-full"
+                            />
                         </div>
-                    </Dropdown.Item>
+                        <p className="text-black text-sm font-semibold">Received message from Nitin Chohan</p>
+                    </div>
+                </Dropdown.Item>
+                <div className="">
                 </div>
             </Dropdown>
         </div>

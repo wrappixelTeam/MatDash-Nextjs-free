@@ -3,6 +3,7 @@
     overflow: hidden;
     transition: all .3s ease-in-out;
 }
+
 .mobile-header-menu.active {
     min-height: 70px;
     overflow: visible;
@@ -17,7 +18,11 @@
 
 
 @media screen and (max-width:1280px) {
-    .page-wrapper{
+    .page-wrapper {
         margin-left: 0;
     }
+}
+
+.notification {
+    @apply !absolute !left-36 !top-0 !mt-2 !w-80 !bg-white !border !border-gray-200 !rounded-md !shadow-lg;
 }

@@ -13,7 +13,7 @@ const config: Config = {
   theme: {
     extend: {
       boxShadow: {
-        md: "0px 1px 4px 0px rgba(133, 146, 173, 0.2)",
+        md: "0px 2px 4px -1px rgba(175, 182, 201, 0.2)",
         lg: "0 1rem 3rem rgba(0, 0, 0, 0.175)",
         "dark-md":
           "rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.02) 0px 12px 24px -4px",
