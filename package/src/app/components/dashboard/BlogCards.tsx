@@ -65,7 +65,7 @@ const BlogCards = () => {
                   <Image src={item.coveravatar} alt="matdash" />
                   <Badge
                     color={"muted"}
-                    className="absolute bottom-5 end-5 font-semibold rounded-sm"
+                    className="absolute bottom-5 end-5 font-semibold rounded-sm bg-muted"
                   >
                     {item.read}
                   </Badge>

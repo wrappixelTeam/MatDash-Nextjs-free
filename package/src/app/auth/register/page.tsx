@@ -5,7 +5,7 @@ import Link from "next/link";
 import AuthRegister from "../authforms/AuthRegister";
 
 const gradientStyle = {
-  background: "linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+  background: "linear-gradient(45deg, rgb(238, 119, 82,0.2), rgb(231, 60, 126,0.2), rgb(35, 166, 213,0.2), rgb(35, 213, 171,0.2))",
   backgroundSize: "400% 400%",
   animation: "gradient 15s ease infinite",
   height: "100vh",
