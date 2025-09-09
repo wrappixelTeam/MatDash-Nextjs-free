@@ -6,7 +6,7 @@
 
 <h1 align="center">
    <a href="https://adminmart.com/product/matdash-free-next-js-admin-template/?ref=56" target="_blank" align="center">
-      MatDash Free Tailwind Next.js Admin Template
+      MatDash Free Tailwind Next.js Admin Template 
    </a>
 </h1>
 
